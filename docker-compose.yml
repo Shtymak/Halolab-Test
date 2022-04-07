@@ -2,8 +2,8 @@ version: '3.0'
 
 services:
   main:
-    container_name: holatest
-    image: hola:1.0.0
+    container_name: app
+    image: react2022/hola:1.0.0
     env_file:
       - .docker.env
     ports:
